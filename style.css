@@ -1,0 +1,183 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: #FFF;
+    margin: 0 15px;
+}
+
+header nav li a:hover {
+    color: #b6905f;
+}
+
+main .encabezado {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url(./img/imagenCentral.png);
+    background-position: center center;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+
+main div div h1 {
+    font-weight: 100;
+}
+
+main div div .pEncabezado {
+    font-weight: 300;
+}
+
+.separadorGris {
+    width: 100%;
+    height: 11vh;
+    background: #6e6052;
+}
+
+.colorDDL {
+    color: #f0974e;
+}
+
+.colorDDLOscuro {
+    color: #5b3115;
+}
+
+.fondoNegro {
+    background: #000;
+}
+
+.fondoNegro button {
+    border: solid 2px #f0974e;
+    
+}
+
+.calidad {
+    background: #32302e;
+}
+
+.calidad p {
+    font-size:13px;
+    font-weight: 100;
+}
+
+.img-sinConservantes {
+    width: 50px;
+    height: 50px;
+}
+
+.infoNutricional:hover {
+    border: solid 2px #f0974e;
+}
+
+.alfajoresDeMaicena {
+    background-color: #b6905f;
+}
+
+.btnProbalos {
+    color: #5b3115;
+    border: 2px solid #5b3115;
+}
+
+.btnProbalos:hover {
+    color: #5b3115;
+    border: 2px solid #5b3115;
+    font-weight: 700;
+}
+
+.colorNosotros {
+    color: #b6905f;
+}
+
+.contacto input, .contacto textarea {
+    width: 300px;
+}
+
+
+.inputOscuro {
+    background: #ad876d;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+footer ul li a:hover {
+    color: #b6905f;
+}
+
+@media (min-width: 1024px) {
+    
+    .pEncabezado {
+        width: 50%;
+        max-width: 500px;
+    }
+
+    .imgAlfajorcitos {
+        width: 100%;
+        max-width: 380px;
+    }
+
+    .productoInvertido > .imgInvertida{
+
+        order: 2;
+    }
+
+    .productoInvertido > .textoInvertido {
+        order: 1;
+    }
+
+    .productoInvertido .imgInvertida {
+        width: 50%;
+        max-width: 500px;
+    }
+
+
+    .producto .imgChoconut {
+        width: 100%;
+        max-width: 380px;
+    }
+
+    .producto .textoProductos {
+        width: 90%;
+        max-width: 400px;
+        padding: 0;
+    }
+
+    .textoAlfajorcitos {
+        width: 85%;
+        max-width: 700px;
+    }
+
+    .imgContacto {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .carousel-item img {
+        max-width: 300px;
+        margin: 15px auto;
+
+    }
+
+    .pNosotros {
+        width: 100%;
+        max-width: 580px;
+    }
+
+
+}
